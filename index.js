@@ -129,7 +129,7 @@ async function main() {
   }).catch((err) => {
     console.error(err)
   })
-  console.log('hihi');
+  console.log('hihihi');
 }
 main()
 
