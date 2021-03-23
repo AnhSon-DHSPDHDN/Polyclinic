@@ -117,19 +117,19 @@ async function thuTienBN(idReceive) {
 }
 
 async function main() {
-  let token = null;
-  token = await getTokenLogin()
-  tiepNhanBN(person, token)
+  // let token = null;
+  // token = await getTokenLogin()
+  // tiepNhanBN(person, token)
 
-  // await cypress.run({
-  //   // the path is relative to the current working directory
-  //   spec: './cypress/integration/examples/actions.spec.js'
-  // }).then((results) => {
-  //   console.log(results)
-  // }).catch((err) => {
-  //   console.error(err)
-  // })
-  // console.log('hihi');
+  await cypress.run({
+    // the path is relative to the current working directory
+    spec: './cypress/integration/examples/actions.spec.js'
+  }).then((results) => {
+    console.log(results)
+  }).catch((err) => {
+    console.error(err)
+  })
+  console.log('hihi');
 }
 main()
 

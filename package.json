@@ -1,0 +1,23 @@
+{
+  "name": "polyclinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnhSon-DHSPDHDN/Polyclinic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnhSon-DHSPDHDN/Polyclinic/issues"
+  },
+  "homepage": "https://github.com/AnhSon-DHSPDHDN/Polyclinic#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cypress": "^6.8.0"
+  }
+}
