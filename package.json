@@ -17,9 +17,7 @@
   },
   "homepage": "https://github.com/AnhSon-DHSPDHDN/Polyclinic#readme",
   "dependencies": {
-    "axios": "^0.21.1"
-  },
-  "devDependencies": {
+    "axios": "^0.21.1",
     "cypress": "^6.8.0"
   }
 }
