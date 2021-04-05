@@ -24,7 +24,7 @@ async function getTokenLogin() {
 }
 
 async function tiepNhanBN(person, token) {
-  console.log(token)
+  // console.log(token)
   const api = {
     query: `mutation createCustomer($inputCustomer: CustomerInput!) {
       createCustomer(inputCustomer: $inputCustomer) {
@@ -182,15 +182,6 @@ async function main() {
   const { idReceive, idCustomer } = await tiepNhanBN(person, token)
   thuTienBN(idReceive, idCustomer, token)
 
-  await cypress.run({
-    // the path is relative to the current working directory
-    spec: './cypress/integration/examples/actions.spec.js'
-  }).then((results) => {
-    console.log(results)
-  }).catch((err) => {
-    console.error(err)
-  })
-  console.log('hihihi');
 }
 main()
 
